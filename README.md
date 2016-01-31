@@ -9,16 +9,18 @@ Avro
 Parquet
 RCFile
 
-Best use cases for each of them.
+1) Best use cases for each of them.
 
-Their performance with wide and narrow query. (We dont really have to do this benchmark for all the format as quite good results are already available, we need this information so that other project can decide the right format using it)
+2) Their performance with wide and narrow query. (We dont really have to do this benchmark for all the format as quite good results are already available, we need this information so that other project can decide the right format using it)
 
-Similarly storage wise comparison for all the format.
+3) Similarly storage wise comparison for all the format.
 
-We need to explore all the tools which are helpful during development using any of these file format.
+4) We need to explore all the tools which are helpful during development using any of these file format.
 
-As data is mostly logged/collected in Text format, we need to prepare a hadoop job to convert Text to each of these format.
+5) As data is mostly logged/collected in Text format, we need to prepare a hadoop job to convert Text to each of these format.
 
-Hadoop job for using non text format as an input as well as output.
+6) Hadoop job for using non text format as an input as well as output.
+
+7) ?
 
  
